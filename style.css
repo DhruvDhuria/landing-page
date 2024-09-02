@@ -103,4 +103,61 @@ button:hover {
     font-weight: 900px;
     margin: 32px 0 64px;
 }
+#page3 {
+    height: 60vh;
+    width: 100vw;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#qoute {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 8px 128px;
+    text-align: center;
+}
+#author {
+    font-weight: bold;
+    font-size: 28px;
+    
+}
 
+#page4 {
+    height: 50vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#call-action {
+    height: 20vh;
+    width: 70vw;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+    color: #F9FAF8;
+    font-size: 24px;
+    border-radius: 16px;
+    padding: 8px;
+}
+#call-action button {
+    background-color: #3882F6;
+    border: 4px solid #F9FAF8;
+    padding: 16px 32px;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 15vh;
+}
